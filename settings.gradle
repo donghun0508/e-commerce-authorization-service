@@ -1,0 +1,10 @@
+rootProject.name = 'e-commerce-authorization-service'
+include 'authorization-service-container'
+include 'authorization-service-application'
+include 'authorization-service-domain'
+include 'authorization-service-adapter:authorization-service-adapter-filter'
+include 'authorization-service-adapter:authorization-service-adapter-persistence'
+include 'authorization-service-adapter:authorization-service-adapter-persistence:authorization-service-adapter-persistence-database'
+include 'authorization-service-adapter:authorization-service-adapter-persistence:authorization-service-adapter-persistence-cache'
+include 'authorization-service-common'
+
